@@ -2,6 +2,7 @@ void loadMusic() {
   //
   minim = new Minim(this);
   //
+  //Conactenation of Pathway + File Name
   String musicPathway = "../Music/";
   String soundEffectPathway = "../Sound Effects/";
   String competitionFileName = "Beat_Your_Competition.mp3";

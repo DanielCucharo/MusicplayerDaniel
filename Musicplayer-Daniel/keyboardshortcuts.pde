@@ -19,11 +19,11 @@ musicShortCuts();
    if ( key == 'P' || key == 'p' ) playPause();
    if ( key == 'M' || key == 'm' ) mute();
    if ( key == 'F' || key == 'f' ) fastForward();
-   if ( key == 'R' || key == 'r' ) fastRewinf();
+   if ( key == 'R' || key == 'r' ) fastRewind();
    if ( key == 'N' || key == 'n' ) nextSong();
    if ( key == 'S' || key == 's' ) previousSong();
    if ( key == 'L' || key == 'l' ) loopSong();
-   if ( key == 'T' || key == 't' ) loopPLaylist();
+   if ( key == 'T' || key == 't' ) loopPlaylist();
    if ( key == 'F' || key == 'f' ) shufflePlaylist();
    if ( key == 'H' || key == 'h' ) loopAndShuffle();
  }//End musicShortCuts

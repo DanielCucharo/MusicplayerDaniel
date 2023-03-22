@@ -12,7 +12,7 @@ AudioPlayer soundEffect0, soundEffect1;
 //
 int time = 7000;
 //
-Boolean activatedWindow=false;
+Boolean activateWindow=false;
 //
 void setup() {
   size(300, 300);
@@ -48,7 +48,7 @@ void setup() {
 } //End loadMusic
 //
 void draw() {
-  if ( activateWidow == true ) background(0);
+  if ( activateWindow == true ) background(0);
   //
   //Debugging the Effective Length of the Sound Effact to code a delay
   //println ( soundEffect0.position(). soundEffect).length() );

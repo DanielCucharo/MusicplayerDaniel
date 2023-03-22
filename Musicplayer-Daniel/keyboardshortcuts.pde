@@ -7,13 +7,13 @@ musicShortCuts();
 //
  void musicShortCuts() {
    if ( key == '1' ) song0.loop(0);
-   if ( key == '2' ) song0.loop(0);
-   if ( key == '3' ) song0.loop(0);
-   if ( key == '4' ) song0.loop(0);
-   if ( key == '5' ) song0.loop(0);
-   if ( key == '6' ) song0.loop(0);
-   if ( key == '7' ) song0.loop(0);
-   if ( key == '8' ) song0.loop(0);
+   if ( key == '2' ) song1.loop(0);
+   if ( key == '3' ) song2.loop(0);
+   if ( key == '4' ) song3.loop(0);
+   if ( key == '5' ) song4.loop(0);
+   if ( key == '6' ) song5.loop(0);
+   if ( key == '7' ) song6.loop(0);
+   if ( key == '8' ) song7.loop(0);
    //
    if ( key == 'A' || key == 'a' ) autoPlay();
    if ( key == 'P' || key == 'p' ) playPause();
@@ -57,7 +57,7 @@ void quitButtonCode() {
   }//End Mute
   //
   void fastForward() {}//End Fast Forward
-   //
+  //
   void fastRewind() {}//End Fast Rewind
   //
   void nextSong() {}//End Next Song

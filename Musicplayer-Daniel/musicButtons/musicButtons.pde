@@ -13,10 +13,21 @@ float prevX1, prevY1, prevX2, prevY2, prevX3, prevY3, prevXR, prevYR, prevWidth;
 float rrX, rrY, nextX, nextY, prevX, prevY, loop1X, loop1Y;
 float loopPlaylistX, loopPlaylistY;
 //
-voit setup() {
+void setup() {
   //Display
-  size( 700, 500 );
-  //fullScreen();
+  size( 700, 500 ); //Width, Height;
+  //fullScreen(); //displayWidth, displayHeight
   //
   //Population: visual data
-  buttonReferentMeasure = width * 1/12
+  buttonReferentMeasure = width * 1/12;
+  buttonSide = buttonReferentMeasure;
+  spaceWidth = buttonReferentMeasure * 1/12;
+  //
+  float centerx = width * 1/2; //Local Variable, garbage collected at end of setup(), see println in draw()
+  float centerY = height * 1/1.2;
+  int buttonPositionColum, buttonPositionRow;
+  print("Confirming Center X:", centerx);
+  println("/t Confirming Center Y:", centerY);
+  //
+  pauseX1 = centerx - buttonReferentMeasure*
+  

@@ -9,7 +9,7 @@ String string1 = "Computer stuff nya";
 String string2 = "Bottom of page";
 String string3 = "Middle of page";
 //
-void allText() {}// End All Text
+void allText() {
   textDraw1();
   textDraw2();
   textDraw3();

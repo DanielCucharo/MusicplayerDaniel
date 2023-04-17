@@ -23,8 +23,8 @@ int picHeight = 168;
 //Larger Dimension Algorithm, ASPECT RATIO
 int smallerDimension, largerDimension;
 float imageHeightRatio, imageWidthRatio;
-if ( picWidth >= picheight ) { //TRUE if Landscape or Squre
-  LargerDimension = picWidth; 
+if ( picWidth >= picHeight ) { //TRUE if Landscape or Squre
+  largerDimension = picWidth; 
   smallerDimension = picHeight;
   imageHeightRatio = float (smallerDimension) / float (largerDimension);
   picWidthAdjusted = backgroundImageWidth; //Compression into rect()

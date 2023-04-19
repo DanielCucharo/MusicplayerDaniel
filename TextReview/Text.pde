@@ -14,6 +14,8 @@ void allText() {
   textDraw2();
   textDraw3();
  //
+}// END ALL TEXT
+//
  void textSetup() {
  //Pop, from display
    textRectX1 = textRectX2 = textRectX3 = width*1/5;
@@ -21,7 +23,7 @@ void allText() {
    textRectHeight1 = textRectHeight2 = textRectHeight3 = height*1/10;
    textRectY1 = height*1/10;
    textRectY2 = height*8/10;
-   textRectY3 = textRectX1;
+   textRectY3 = height*5/10;
  //
  //rect( textRecX1, textRectY1, textRectWidth1, textRectHeight1 );
    rect( textRecX2, textRectY2, textRectWidth2, textRectHeight2 );
@@ -47,18 +49,29 @@ void allText() {
  void textDraw1() {
    preTextDraw();
   //
-    textSize
-  
-  int textSize = 18; //Change the number until it fits, largest font size
-  textFont(font, textSize); 
+    textSize( 19 )
   //
-  //Printing Text on the CANVAS
-  text( string, textRectX, textRectY, textRectWidth, textRectHeight );
+    text( string1, textRectX1, textRectY1, textRectWidth1, textRectHeight1 );
+  //
+   fill(resetWhiteInk);
+   //
+ }//End Text Draw1
+ //
+ void textDraw2() {
+   preTextDraw();
+    textSize = 18; //Change the number until it fits, largest font size
+   //
+   text( string2, textRectX2, textRectY2, textRectWidth2, textRectHeight2 );
+   fill(resetWhiteInk);
+  //
+ }//End Text Draw2
+ //
+ void TextDraw3(0 {
+   preTextDraw();
+    textSize = 18; //Change the number until it fits, largest font size
+  //
+  text( string3, textRectX3, textRectY3, textRectWidth3, textRectHeight3 );
   //
   fill(resetWhiteInk);
-  //
-}//End Set Up
-//
-void draw() {
 }//End Draw
-//
+//End Text SubProgram
